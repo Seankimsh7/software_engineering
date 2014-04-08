@@ -1,6 +1,6 @@
-#include<conio.h>
-#include<stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
+#include <ncurses.h>
 
 #define N 6
 
@@ -12,48 +12,51 @@ void del(void);
 void disp(void);
 void cre(void);
 
-void main()
-{
+int main() {
     int user=0;
 
-
-    while(user!=4)
-      {
-        system("cls");
+    while(user!=4) {
+        system("clear");
         printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",N);
         printf("\n\t 1.INSERT");
         printf("\n\t 2.DELETE");
         printf("\n\t 3.DISPLAY");
         printf("\n\t 4.EXIT");
         printf("\n\t 5.CREATE\n");
-		printf("\n\t :");
+        printf("\n\t :");
         scanf("%d",&user);
+        
         switch(user)
         {
-            case 1:
-                insert();
-                break;
-            case 2:
-                del();
-                break;
-            case 3:
-                disp();
-                break;
-            case 4:
-                printf("\n\t THANK U");
-                break;
-            case 5:
-                cre();
-                break;
+        case 1:
+            insert();
+            break;
+        case 2:
+            del();
+            break;
+        case 3:
+            disp();
+            break;
+        case 4:
+            printf("\n\t THANK U");
+            break;
+        case 5:
+            cre();
+            break;
         }
-		printf("\n\t Press any key to enter");
-        getch();
-		
-      }
+        printf("\n\t Press any key to enter");
+        
+        initscr();
+        timeout(-1);
+        
+        fflush(stdout);
+        
+	getch();
+        endwin();	
+    }
 
+    return 0;
 }
-
-
 
 /*********************insert********************/
 void insert(void)
