@@ -59,6 +59,9 @@ void main()
 void insert(void)
 {
     int t,j;
+	if(((rear - front) % N) != 0 && front != 0 && rear != 0)
+		rear = front;
+	
     if(rear<N)
     {
         printf("\n\t ENTER A VALUE IN QUEUE");
@@ -86,9 +89,10 @@ void del(void)
 void disp(void)
 {
     int i;
-    for(i=front;i<rear;i++)
+    for(i=0;i<N;i++)
     {
-        printf("\n\t %d",queue[i]);
+		if(queue[i] != 0)
+			 printf("\n\t %d",queue[i]);
     }
 }
 
