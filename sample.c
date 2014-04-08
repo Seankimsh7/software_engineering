@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include <stdlib.h>
 
-#define N 6
+#define N 7
 
 int queue[N]={0};
 int rear=0,front=0;
@@ -50,7 +50,7 @@ void main()
         getch();
 		
       }
-
+	 
 }
 
 
@@ -59,24 +59,22 @@ void main()
 void insert(void)
 {
     int t;
-    if(rear<N)
-    {
-        printf("\n\t ENTER A VALUE IN QUEUE");
-		printf("\n\t :");
-        scanf("%d",&t);
-        queue[rear]=t;
-        rear++;
-    }
-    else
-    {
-        printf("\n\t Q OVERFLOW!!!!!!!!!!!!!!!");
-    }
+	if((rear+1)%N ==front){
+		printf("\n\t Q OVERFLOW!!!!!!!!!!!!!!!");
+		return;
+	}
+	printf("\n\t ENTER A VALUE IN QUEUE");
+	printf("\n\t :");
+    scanf("%d",&t);
+    queue[rear]=t;
+    rear=++rear%N;
+  
 }
 
 /*********************delete********************/
 void del(void)
 {
-    // int i; 변수 i를 사용하지 않는다. 
+  //  int i; 변수 i가 필요 없음
 	printf("\n\t %d gets deleted.........",queue[front]);
 	queue[front]=0;
     front++;
