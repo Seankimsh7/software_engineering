@@ -27,7 +27,8 @@ void main()
         printf("\n\t 2.DELETE");
         printf("\n\t 3.DISPLAY");
         printf("\n\t 4.EXIT");
-        printf("\n\t 5.CREATE");
+        printf("\n\t 5.CREATE\n");
+  printf("\n\t : ");
         scanf("%d",&user);
         switch(user)
         {
@@ -53,7 +54,7 @@ void main()
     getch();
 }
 
-
+ 
 
 /*********************insert********************/
 void insert(void)
@@ -74,18 +75,25 @@ void insert(void)
 void del(void)
 {
     int i;
-	printf("\n\t %d gets deleted.........",queue[front]);
-	queue[front]=0;
-    front++;
+ printf("\n\t %d gets deleted.........",queue[front]);
+ queue[front]=0;
+    //front++;
+ for(i=front-1; i<rear-1; i++){
+  queue[i] = queue[i+1];
+ }
+ rear--;
 }
 
 void disp(void)
 {
     int i;
     for(i=front;i<rear;i++)
-    {
-        printf("\n\t %d",queue[i]);
-    }
+   /* {
+  if(queue[i]==0)
+   continue;
+  else*/
+   printf("\n\t %d",queue[i]);
+   // }
 }
 void cre(void)
 {
@@ -96,4 +104,4 @@ void cre(void)
     front=0;
     queue[front]=t;
     rear=front+1;
-}
+}  
