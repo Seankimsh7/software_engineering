@@ -1,6 +1,7 @@
 #include<conio.h>
 #include<stdio.h>
-#include<stdlib.h>
+#include <stdlib.h>
+
 #define N 6
 
 int queue[N]={0};
@@ -15,7 +16,7 @@ void main()
 {
     int user=0;
 
-    system("cls");
+
     while(user!=4)
       {
         system("cls");
@@ -24,7 +25,8 @@ void main()
         printf("\n\t 2.DELETE");
         printf("\n\t 3.DISPLAY");
         printf("\n\t 4.EXIT");
-        printf("\n\t 5.CREATE");
+        printf("\n\t 5.CREATE\n");
+		printf("\n\t :");
         scanf("%d",&user);
         switch(user)
         {
@@ -44,10 +46,11 @@ void main()
                 cre();
                 break;
         }
+		printf("\n\t Press any key to enter");
         getch();
-
+		
       }
-    getch();
+
 }
 
 
@@ -59,6 +62,7 @@ void insert(void)
     if(rear<N)
     {
         printf("\n\t ENTER A VALUE IN QUEUE");
+		printf("\n\t :");
         scanf("%d",&t);
         queue[rear]=t;
         rear++;
@@ -68,6 +72,8 @@ void insert(void)
         printf("\n\t Q OVERFLOW!!!!!!!!!!!!!!!");
     }
 }
+
+/*********************delete********************/
 void del(void)
 {
     int i;
@@ -76,6 +82,7 @@ void del(void)
     front++;
 }
 
+/*********************display********************/
 void disp(void)
 {
     int i;
@@ -84,11 +91,14 @@ void disp(void)
         printf("\n\t %d",queue[i]);
     }
 }
+
+/*********************create********************/
 void cre(void)
 {
 
     int t;
     printf("\n\t ENTER A VALUE IN QUEUE");
+	printf("\n\t :");
     scanf("%d",&t);
     front=0;
     queue[front]=t;
