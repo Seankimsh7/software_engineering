@@ -76,7 +76,7 @@ void insert(void)
 /*********************delete********************/
 void del(void)
 {
-    int i;
+	//i변수 삭제
 	printf("\n\t %d gets deleted.........",queue[front]);
 	queue[front]=0;
     front++;
