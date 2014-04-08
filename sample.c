@@ -1,7 +1,7 @@
 #include<conio.h>
 #include<stdio.h>
 #include <stdlib.h>
-
+#include <Windows.h>
 #define N 6
 
 int queue[N]={0};
