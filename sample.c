@@ -15,7 +15,7 @@ void cre(void);
 void main()
 {
     int user=0;
-
+    int mk=0;
 
     while(user!=4)
       {
