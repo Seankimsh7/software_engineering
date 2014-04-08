@@ -1,4 +1,3 @@
-#include<conio.h>
 #include<stdio.h>
 #include <stdlib.h>
 
@@ -15,7 +14,7 @@ void cre(void);
 void main()
 {
     int user=0;
-
+    system("cls");
 
     while(user!=4)
       {
