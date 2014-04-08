@@ -58,7 +58,7 @@ void main()
 /*********************insert********************/
 void insert(void)
 {
-    int t,j;
+    int t;
     if(rear<N)
     {
         printf("\n\t ENTER A VALUE IN QUEUE");
@@ -76,7 +76,7 @@ void insert(void)
 /*********************delete********************/
 void del(void)
 {
-    int i;
+
 	printf("\n\t %d gets deleted.........",queue[front]);
 	queue[front]=0;
     front++;
