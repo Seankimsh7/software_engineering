@@ -14,10 +14,10 @@ void main()
 {
     int user=0;
 
-    clrscr();
+    //clrscr();			수정 : 불필요한 함수
     while(user!=4)
       {
-        clrscr();
+        //clrscr();		수정 : 불필요한 함수
         printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",N);
         printf("\n\t 1.INSERT");
         printf("\n\t 2.DELETE");
