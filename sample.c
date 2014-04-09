@@ -1,3 +1,7 @@
+/* software engineering
+   20113342
+   DongMin Hyeon	*/
+
 #include<conio.h>
 #include<stdio.h>
 #define N 6
