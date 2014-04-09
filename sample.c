@@ -1,12 +1,8 @@
-// 20083222 HyunHo.Kim
 #include<conio.h>
 #include<stdio.h>
-#include<stdlib.h>
 
 #define N 6
 
-
-//주석 추가
 int queue[N]={0};
 int rear=0,front=0;
 
@@ -18,18 +14,17 @@ void cre(void);
 void main()
 {
     int user=0;
-
+    clrscr();
     while(user!=4)
       {
-        system("cls");
+        clrscr();
         printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",N);
         printf("\n\t 1.INSERT");
         printf("\n\t 2.DELETE");
         printf("\n\t 3.DISPLAY");
         printf("\n\t 4.EXIT");
-        printf("\n\t 5.CREATE\n");
-        	printf("\n\n\t Input Number : ");
-	scanf("%d",&user);
+        printf("\n\t 5.CREATE");
+        scanf("%d",&user);
         switch(user)
         {
             case 1:
