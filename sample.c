@@ -69,7 +69,7 @@ void insert(void)
 }
 void del(void)
 {
-    int i;
+ 
 	printf("\n\t %d gets deleted.........",queue[front]);
 	queue[front]=0;
     front++;
