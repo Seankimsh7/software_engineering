@@ -2,6 +2,8 @@
 #include<stdio.h>
 
 #define N 6
+	
+
 
 int queue[N]={0};
 int rear=0,front=0;
