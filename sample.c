@@ -42,7 +42,8 @@ void main()
             case 4:
                 printf("\n\t THANK U");
                 break;
-            case 5:
+			
+			case 5:
                 cre();
                 break;
         }
@@ -72,7 +73,7 @@ void insert(void)
 }
 void del(void)
 {
-    int i;
+    //int i;// 지역변수인 i가 쓸데없이 선언되어잇다
 	printf("\n\t %d gets deleted.........",queue[front]);
 	queue[front]=0;
     front++;
