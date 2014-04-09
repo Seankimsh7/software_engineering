@@ -37,7 +37,7 @@ void main()
                 disp();
                 break;
             case 4:
-                printf("\n\t THANK U");
+                printf("\n\t THANK U VERY MUCH^^");
                 break;
             case 5:
                 cre();
