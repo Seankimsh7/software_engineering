@@ -39,9 +39,7 @@ void main()
             case 4:
                 printf("\n\t THANK U");
                 break;
-            case 5:
-                cre();
-                break;
+            
         }
         getch();
 	
