@@ -1,6 +1,6 @@
 #include<conio.h>
 #include<stdio.h>
-
+#include<stdlib.h>
 
 #define N 6
 
@@ -15,10 +15,10 @@ void cre(void);
 void main()
 {
     int user=0;
-    clrscr();
+    system("cls");
     while(user!=4)
       {
-        clrscr();
+        system("cls");
         printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",N);
         printf("\n\t 1.INSERT");
         printf("\n\t 2.DELETE");
