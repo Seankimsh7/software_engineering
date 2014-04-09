@@ -14,7 +14,6 @@ void main()
 {
     int user=0;
 
-    clrscr();
     while(user!=4)
       {
         clrscr();
