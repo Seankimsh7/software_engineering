@@ -16,7 +16,7 @@ void main()
     int user=0;
     clrscr();
     while(user!=4)
-      {
+    {
         clrscr();
         printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",N);
         printf("\n\t 1.INSERT");
