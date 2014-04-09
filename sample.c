@@ -24,6 +24,11 @@ void main()
         printf("\n\t 3.DISPLAY");
         printf("\n\t 4.EXIT");
         printf("\n\t 5.CREATE");
+
+
+		printf("\n\t moonhee modified project 20140409");
+
+
         scanf("%d",&user);
         switch(user)
         {
