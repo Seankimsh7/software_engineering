@@ -77,7 +77,7 @@ void del(void)
 
 void disp(void)
 {
-    int i;
+    //int i;
     for(i=front;i<rear;i++)
     {
         printf("\n\t %d",queue[i]);
