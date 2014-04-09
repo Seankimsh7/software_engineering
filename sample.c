@@ -5,6 +5,8 @@
 
 #define N 6
 
+
+//주석 추가
 int queue[N]={0};
 int rear=0,front=0;
 
