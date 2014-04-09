@@ -1,6 +1,7 @@
 #include<conio.h>
 #include<stdio.h>
 
+
 #define N 6
 
 int queue[N]={0};
