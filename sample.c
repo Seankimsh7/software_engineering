@@ -24,7 +24,7 @@ void main()
         printf("\n\t 3.DISPLAY");
         printf("\n\t 4.EXIT");
         printf("\n\t 5.CREATE\n");
-	printf("select a number : ");
+	printf("select a number : ");////
         scanf("%d",&user);
         switch(user)
         {
