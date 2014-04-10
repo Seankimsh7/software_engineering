@@ -16,7 +16,7 @@ void main()
  
     int input=0;
 
-    while(input!=4)
+    while(input != 4)
     {
 
         printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",N);
@@ -46,6 +46,8 @@ void main()
             case 5:
                 cre();
                 break;
+	    default:
+		break;
         }
 
         getch();
@@ -61,14 +63,14 @@ void main()
 void insert(void)
 {
 
-    int t;
+    int value;
 
     if(rear < N)
     {
 
         printf("\n\t ENTER A VALUE IN QUEUE");
-        scanf("%d",&t);
-        queue[rear]=t;
+        scanf("%d",&value);
+        queue[rear]=value;
         rear++;
 
     }
