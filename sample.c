@@ -6,9 +6,9 @@
 
 
 #define N 50
-=======
-#define N 6
->>>>>>> fd957f1188482bbe207540dd57b04ef77e4df729
+
+
+
 
 int queue[N]={0};
 int rear=0,front=0;
