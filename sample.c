@@ -60,7 +60,9 @@ void main()
 /*********************insert********************/
 void insert(void)
 {
+
     int t;
+
     if(rear<N)
     {
 
@@ -80,8 +82,8 @@ void insert(void)
 }
 void del(void)
 {
-	printf("\n\t %d gets deleted.........",queue[front]);
-	queue[front]=0;
+    printf("\n\t %d gets deleted.........",queue[front]);
+    queue[front]=0;
     front++;
 }
 
