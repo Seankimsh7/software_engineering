@@ -14,9 +14,10 @@ void cre(void);
 void main()
 {
     int user=0;
-    clrscr();
+
     while(user!=4)
     {
+
         clrscr();
         printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",N);
         printf("\n\t 1.INSERT");
@@ -25,8 +26,10 @@ void main()
         printf("\n\t 4.EXIT");
         printf("\n\t 5.CREATE");
         scanf("%d",&user);
+
         switch(user)
         {
+
             case 1:
                 insert();
                 break;
@@ -43,9 +46,11 @@ void main()
                 cre();
                 break;
         }
+
         getch();
 	
       }
+
     getch();
 }
 
@@ -57,19 +62,23 @@ void insert(void)
     int t;
     if(rear<N)
     {
+
         printf("\n\t ENTER A VALUE IN QUEUE");
         scanf("%d",&t);
         queue[rear]=t;
         rear++;
+
     }
+
     else
     {
+
         printf("\n\t Q OVERFLOW!!!!!!!!!!!!!!!");
+
     }
 }
 void del(void)
 {
-    int i;
 	printf("\n\t %d gets deleted.........",queue[front]);
 	queue[front]=0;
     front++;
@@ -78,9 +87,12 @@ void del(void)
 void disp(void)
 {
     int i;
+
     for(i=front;i<rear;i++)
     {
+
         printf("\n\t %d",queue[i]);
+
     }
 }
 void cre(void)
