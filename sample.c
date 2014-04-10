@@ -87,7 +87,7 @@ void del(void)
 /********************* display ********************/
 void disp(void)
 {
-
+	int i;
     for(i = front ; i < rear ; i++)
         printf("\n\t %d", queue[i]);
 }
