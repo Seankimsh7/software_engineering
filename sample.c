@@ -1,7 +1,7 @@
 #include<conio.h>
 #include<stdio.h>
 
-#define N 6
+#define N 50
 
 int queue[N]={0};
 int rear=0,front=0;
@@ -13,19 +13,16 @@ void cre(void);
 
 void main()
 {
- 
-    int input=0;
-
-    while(input != 4)
+    int input = 0;
+    while (input != 4)
     {
-
         printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",N);
         printf("\n\t 1.INSERT");
         printf("\n\t 2.DELETE");
         printf("\n\t 3.DISPLAY");
         printf("\n\t 4.EXIT");
         printf("\n\t 5.CREATE");
-        
+   
         scanf("%d",&input);
 
         switch(input)
@@ -54,15 +51,11 @@ void main()
 	
       }
 
-    getch();
 }
 
-//test
-
-/*********************insert********************/
+/********************* insert ********************/
 void insert(void)
 {
-
     int value;
 
     if(rear < N)
@@ -82,6 +75,8 @@ void insert(void)
 
     }
 }
+
+/********************* delete ********************/
 void del(void)
 {
     printf("\n\t %d gets deleted.........",queue[front]);
@@ -89,20 +84,17 @@ void del(void)
     front++;
 }
 
+/********************* display ********************/
 void disp(void)
 {
-    int i;
 
     for(i = front ; i < rear ; i++)
-    {
-
         printf("\n\t %d", queue[i]);
-
-    }
 }
+
+/********************* create ********************/
 void cre(void)
 {
-
     int t;
     printf("\n\t ENTER A VALUE IN QUEUE");
     scanf("%d",&t);
