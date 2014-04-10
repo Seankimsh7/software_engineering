@@ -1,7 +1,7 @@
 #include<conio.h>
 #include<stdio.h>
 
-// changed sample.c
+
 
 #define N 50
 
