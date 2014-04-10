@@ -74,7 +74,7 @@ void insert(void)
     else
     {
 
-        printf("\n\t Q OVERFLOW!!!!!!!!!!!!!!!");
+        printf("\n\t Q OVERFLOW");
 
     }
 }
