@@ -63,7 +63,7 @@ void insert(void)
 
     int t;
 
-    if(rear<N)
+    if(rear < N)
     {
 
         printf("\n\t ENTER A VALUE IN QUEUE");
@@ -91,10 +91,10 @@ void disp(void)
 {
     int i;
 
-    for(i=front;i<rear;i++)
+    for(i = front ; i < rear ; i++)
     {
 
-        printf("\n\t %d",queue[i]);
+        printf("\n\t %d", queue[i]);
 
     }
 }
