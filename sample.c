@@ -12,8 +12,6 @@ void del(void);
 void disp(void);
 void cre(void);
 
-
-
 void main()
 {
     int input = 0;
