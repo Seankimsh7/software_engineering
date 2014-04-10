@@ -14,7 +14,7 @@ void cre(void);
 void main()
 {
     int input = 0;
-    while (input != 4)
+    while (input < 6)
     {
         printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",N);
         printf("\n\t 1.INSERT");
