@@ -13,10 +13,7 @@ void cre(void);
 
 void main()
 {
-    //int user=0;
-
-    //while(user!=4)
-
+ 
     int input=0;
 
     while(input!=4)
@@ -28,9 +25,7 @@ void main()
         printf("\n\t 3.DISPLAY");
         printf("\n\t 4.EXIT");
         printf("\n\t 5.CREATE");
-        //scanf("%d",&user);
-
-        //switch(user)
+        
         scanf("%d",&input);
 
         switch(input)
