@@ -13,35 +13,28 @@ void cre(void);
 
 void main()
 {
-<<<<<<< HEAD
     int user=0;
 
     while(user!=4)
-=======
 
     int input=0;
 
-    clrscr();
-
     while(input!=4)
->>>>>>> 6e626e943022442cd3686c8484a0bd725e7b9b95
     {
 
-        clrscr();
+
         printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",N);
         printf("\n\t 1.INSERT");
         printf("\n\t 2.DELETE");
         printf("\n\t 3.DISPLAY");
         printf("\n\t 4.EXIT");
         printf("\n\t 5.CREATE");
-<<<<<<< HEAD
         scanf("%d",&user);
 
         switch(user)
-=======
         scanf("%d",&input);
+
         switch(input)
->>>>>>> 6e626e943022442cd3686c8484a0bd725e7b9b95
         {
 
             case 1:
