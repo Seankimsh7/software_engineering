@@ -8,8 +8,8 @@ int rear=0,front=0;
 
 void insert(void);
 void del(void);
-void disp(void);
-void cre(void);
+void display(void);
+void create(void);
 
 void main()
 {
@@ -85,7 +85,7 @@ void del(void)
 }
 
 /********************* display ********************/
-void disp(void)
+void display(void)
 {
 
     for(i = front ; i < rear ; i++)
@@ -93,7 +93,7 @@ void disp(void)
 }
 
 /********************* create ********************/
-void cre(void)
+void create(void)
 {
     int t;
     printf("\n\t ENTER A VALUE IN QUEUE");
