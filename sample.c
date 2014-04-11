@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define N 6
+#define QUEUE_SIZE 6
 
 
-int queue[N] = {0};
+int queue[QUEUE_SIZE] = {0};
 int rear = 0,front = 0;
 
 void insert(void);
@@ -19,7 +19,7 @@ int main()
     
     while (input !=  4) {
         system("cls");
-        printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",N);
+        printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",QUEUE_SIZE);
         printf("\n\t 1.INSERT");
         printf("\n\t 2.DELETE");
         printf("\n\t 3.DISPLAY");
@@ -62,7 +62,7 @@ void insert(void)
 {
     int value = 0;
 
-    if(rear < N) {
+    if(rear < QUEUE_SIZE) {
         printf("\n\t ENTER A VALUE IN QUEUE :: ");
         
         scanf("%d",&value);
