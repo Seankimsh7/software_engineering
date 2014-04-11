@@ -39,6 +39,8 @@ void main()
             case 4:
                 printf("\n\t THANK U");
                 break;
+	    default:
+		break;
             
         }
         getch();
