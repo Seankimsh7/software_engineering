@@ -1,4 +1,4 @@
-#include <conio.h> // #include <ncurses.h>
+#include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
 
