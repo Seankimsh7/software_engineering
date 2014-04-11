@@ -1,5 +1,6 @@
 #include<conio.h>
 #include<stdio.h>
+#include<stdlib.h>
 #define N 6
 
 
@@ -22,8 +23,9 @@ void main()
         printf("\n\t 2.DELETE");
         printf("\n\t 3.DISPLAY");
         printf("\n\t 4.EXIT");
-        printf("\n\t 5.CREATE");
+        printf("\n\t 5.CREATE\n");
    
+		printf("\n\t -> ");
         scanf("%d",&input);
 
         switch(input)
@@ -39,7 +41,7 @@ void main()
                 disp();
                 break;
             case 4:
-                printf("\n\t THANK U");
+                printf("\n\t THANK U\n\n");
                 break;
             case 5:
                 cre();
@@ -62,11 +64,11 @@ void insert(void)
     if(rear < N)
     {
 
-        printf("\n\t ENTER A VALUE IN QUEUE");
+        printf("\n\t ENTER A VALUE IN QUEUE :: ");
         scanf("%d",&value);
         queue[rear]=value;
         rear++;
-
+		printf("\t PRESS ENTER KEY");
     }
 
     else
@@ -80,26 +82,32 @@ void insert(void)
 /********************* delete ********************/
 void del(void)
 {
-    printf("\n\t %d gets deleted.........",queue[front]);
+    printf("\n\t %d gets deleted.........\n",queue[front]);
     queue[front]=0;
     	front++;
+	printf("\t PRESS ENTER KEY");
 }
 
 /********************* display ********************/
 void disp(void)
 {
 	int i=0;
+	printf("\n\t");
     for(i = front ; i < rear ; i++)
-        printf("\n\t %d", queue[i]);
+        printf(" %d ", queue[i]);	
+	printf("\n");
+	printf("\t PRESS ENTER KEY");
+
 }
 
 /********************* create ********************/
 void cre(void)
 {
     int t=0;
-    printf("\n\t ENTER A VALUE IN QUEUE");
+    printf("\n\t ENTER A VALUE IN QUEUE :: ");
     scanf("%d",&t);
     front=0;
     queue[front]=t;
     rear=front+1;
+	printf("\t PRESS ENTER KEY");
 }
