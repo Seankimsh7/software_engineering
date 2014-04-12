@@ -92,10 +92,8 @@ void del(void) {
 void disp(void) {
     int i = 0;
     
-    printf("\n\t");
-    
     for(i = front ; i < rear ; i++)
-        printf(" %d ", queue[i]);   
+        printf("\n\t %d", queue[i]);   
     
     printf("\n");
     printf("\t PRESS ENTER KEY");
