@@ -47,8 +47,6 @@ int main()
 			case 5:
                 cre();
                 break;
-
-        system("cls"); // system("clear"); for linux
         case 1:
             insert();
             break;
