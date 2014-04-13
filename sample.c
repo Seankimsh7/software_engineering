@@ -1,12 +1,12 @@
 #include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <queue>
+#include <iterator>
 
 #define QUEUE_SIZE 6
 
-
-int queue[QUEUE_SIZE] = {0};
-int rear = 0,front = 0;
+std::queue<int> queue;
 
 void insert(void);
 void del(void);
@@ -31,22 +31,7 @@ int main()
 
         switch(input)
         {
-            case 1:
-                insert();
-                break;
-            case 2:
-                del();
-                break;
-            case 3:
-                disp();
-                break;
-            case 4:
-                printf("\n\t THANK U");
-                break;
-			
-			case 5:
-                cre();
-                break;
+        system("cls"); // system("clear"); for linux
         case 1:
             insert();
             break;
@@ -75,43 +60,34 @@ int main()
 /********************* insert ********************/
 void insert(void)
 {
-    int value = 0;
+	int value;
+	printf("\n\t ENTER A VALUE IN QUEUE :: ");    
+    scanf("%d",&value);
 
-    if(rear < QUEUE_SIZE) {
-        printf("\n\t ENTER A VALUE IN QUEUE :: ");
-        
-        scanf("%d",&value);
-        queue[rear] = value;
-        rear++;
-        
-        printf("\t PRESS ENTER KEY");
-    }
-
-    else {
-        printf("\n\t Q OVERFLOW!!!!!!!!!!!!!!!");
-
-    }
+	queue.push(value);
+	printf("\t PRESS ENTER KEY");
 }
-void del(void)
-{
-	printf("\n\t %d gets deleted.........",queue[front]);
-	queue[front]=0;
 
 /********************* delete ********************/
 void del(void) {
-    printf("\n\t %d gets deleted.........\n",queue[front]);
-    
-        front++;
-    
-    printf("\t PRESS ENTER KEY");
+	if(queue.empty())
+		printf("Empty Queue\n");
+
+    printf("\n\t %d gets deleted.........\n",queue.front());
+	queue.pop();
+	printf("\t PRESS ENTER KEY");
 }
 
 /********************* display ********************/
 void disp(void) {
-    int i = 0;
-    
-    for(i = front ; i < rear ; i++)
-        printf("\n\t %d", queue[i]);   
+	int size = queue.size();
+    for(int i = 0 ; i < size ; i++)
+	{
+		int temp = queue.front();
+		printf("\n\t %d", temp);
+		queue.pop();
+		queue.push(temp);
+	}
     
     printf("\n");
     printf("\t PRESS ENTER KEY");
@@ -122,11 +98,12 @@ void cre(void) {
     int t = 0;
     
     printf("\n\t ENTER A VALUE IN QUEUE :: ");
-    scanf("%d",&t);
     
-    front = 0;
-    queue[front] = t;
-    rear=front+1;
-    
+	int size =queue.size();
+	for (int i=0;i<size;i++)
+	{
+		queue.pop();
+	}
+
     printf("\t PRESS ENTER KEY");
 }
