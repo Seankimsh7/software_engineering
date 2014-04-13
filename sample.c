@@ -1,34 +1,35 @@
-// 20083222 HyunHo.Kim
-#include<conio.h>
-#include<stdio.h>
-#include<stdlib.h>
+#include <conio.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-#define N 6
+#define QUEUE_SIZE 6
 
-int queue[N]={0};
-int rear=0,front=0;
+
+int queue[QUEUE_SIZE] = {0};
+int rear = 0,front = 0;
 
 void insert(void);
 void del(void);
 void disp(void);
 void cre(void);
 
-void main()
+int main()
 {
-    int user=0;
-
-    while(user!=4)
-      {
+    int input = 0;
+    
+    while (input !=  4) {
         system("cls");
-        printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",N);
+        printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",QUEUE_SIZE);
         printf("\n\t 1.INSERT");
         printf("\n\t 2.DELETE");
         printf("\n\t 3.DISPLAY");
-        printf("\n\t 4.EXIT");
-        printf("\n\t 5.CREATE\n");
-        	printf("\n\n\t Input Number : ");
-	scanf("%d",&user);
-        switch(user)
+        printf("\n\t 4.CREATE");
+        printf("\n\t 5.EXIT\n");
+
+        printf("\n\t -> ");
+        scanf("%d",&input);
+
+        switch(input)
         {
             case 1:
                 insert();
@@ -46,54 +47,88 @@ void main()
 			case 5:
                 cre();
                 break;
+
+        system("cls"); // system("clear"); for linux
+        case 1:
+            insert();
+            break;
+        case 2:
+            del();
+            break;
+        case 3:
+            disp();
+            break;
+        case 4:
+            cre();
+            break;
+        case 5:
+            printf("\n\t THANK U\n\n");
+            break;
+        default:
+            break;
         }
+
         getch();
-	
-      }
-    getch();
+    }
+
+    return 0;
 }
 
-
-
-/*********************insert********************/
+/********************* insert ********************/
 void insert(void)
 {
-    int t;
-    if(rear<N)
-    {
-        printf("\n\t ENTER A VALUE IN QUEUE");
-        scanf("%d",&t);
-        queue[rear]=t;
+    int value = 0;
+
+    if(rear < QUEUE_SIZE) {
+        printf("\n\t ENTER A VALUE IN QUEUE :: ");
+        
+        scanf("%d",&value);
+        queue[rear] = value;
         rear++;
+        
+        printf("\t PRESS ENTER KEY");
     }
-    else
-    {
+
+    else {
         printf("\n\t Q OVERFLOW!!!!!!!!!!!!!!!");
+
     }
 }
 void del(void)
 {
-    //int i;// 지역변수인 i가 쓸데없이 선언되어잇다
 	printf("\n\t %d gets deleted.........",queue[front]);
 	queue[front]=0;
-    front++;
+
+/********************* delete ********************/
+void del(void) {
+    printf("\n\t %d gets deleted.........\n",queue[front]);
+    
+        front++;
+    
+    printf("\t PRESS ENTER KEY");
 }
 
-void disp(void)
-{
-    int i;
-    for(i=front;i<rear;i++)
-    {
-        printf("\n\t %d",queue[i]);
-    }
+/********************* display ********************/
+void disp(void) {
+    int i = 0;
+    
+    for(i = front ; i < rear ; i++)
+        printf("\n\t %d", queue[i]);   
+    
+    printf("\n");
+    printf("\t PRESS ENTER KEY");
 }
-void cre(void)
-{
 
-    int t;
-    printf("\n\t ENTER A VALUE IN QUEUE");
+/********************* create ********************/
+void cre(void) {
+    int t = 0;
+    
+    printf("\n\t ENTER A VALUE IN QUEUE :: ");
     scanf("%d",&t);
-    front=0;
-    queue[front]=t;
+    
+    front = 0;
+    queue[front] = t;
     rear=front+1;
+    
+    printf("\t PRESS ENTER KEY");
 }
