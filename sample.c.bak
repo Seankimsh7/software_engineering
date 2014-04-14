@@ -75,7 +75,7 @@ void remove() {
 	printf("\t PRESS ENTER KEY");
 }
 
-/******************** display **********************/
+/******************** display ********************/
 void display() {
     int size = queue.size();
     int i=0; //√ ±‚»≠ 
