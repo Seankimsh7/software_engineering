@@ -105,7 +105,7 @@ void disp(void)
 void cre(void)
 {
 
-    int t;
+    int t=0;
     printf("\n\t ENTER A VALUE IN QUEUE");
 	printf("\n\t :");
     scanf("%d",&t);
