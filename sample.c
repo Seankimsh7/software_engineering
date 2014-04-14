@@ -68,7 +68,7 @@ void main()
 /*********************insert********************/
 void insert(void)
 {
-    int t;
+    int t=0;
     if(rear<N)
     {
         printf("\n\t ENTER A VALUE IN QUEUE");
