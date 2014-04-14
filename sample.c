@@ -45,7 +45,7 @@ int main()
             cre();
             break;
         case 5:
-            printf("\n\t System ShutDown\n\n");
+            printf("\n\t System ShutDowned !!\n\n");
             break;
         default:
             break;
