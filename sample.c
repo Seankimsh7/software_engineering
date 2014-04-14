@@ -54,12 +54,12 @@ int main() {
         getch();
     }
 
+
     return 0;
 }
 /******************** insert **********************/
 void insert() {
-	int value=0;	// 입력값 초기화
-
+	int value=0;
 	printf("\n\t ENTER A VALUE IN QUEUE :: ");    
 	scanf("%d",&value);
 
@@ -71,7 +71,6 @@ void insert() {
 void remove() {
 	if(queue.empty())
 		printf("Empty Queue\n");
-
 	printf("\n\t %d gets removed.........\n",queue.front());
 	queue.pop();
 	printf("\t PRESS ENTER KEY");
@@ -81,10 +80,8 @@ void remove() {
 void display() {
     int size = queue.size();
     int i=0; //초기화 
-
     for(i = 0 ; i < size ; i++) {
 		int temp = queue.front();
-
 		printf("\n\t %d", temp);
 		queue.pop();
 		queue.push(temp);
@@ -102,7 +99,6 @@ void create() {
     
 	int size = queue.size();
 	int i = 0;     // i 변수 초기화
-
 	for (int i=0;i<size;i++) {
 		queue.pop();
 	}
