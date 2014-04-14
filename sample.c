@@ -10,7 +10,7 @@ void insert();
 void remove();
 void display();
 void create();
-
+//JEEWON~~
 // 자료구조 큐
 int main() {
 
@@ -79,9 +79,10 @@ void remove() {
 /********************** display **********************/
 void display() {
     int size = queue.size();
-    int i=0; //초기화 
+    int i=0; //초기화
+    int temp;
     for(i = 0 ; i < size ; i++) {
-		int temp = queue.front();
+		temp = queue.front();
 		printf("\n\t %d", temp);
 		queue.pop();
 		queue.push(temp);
