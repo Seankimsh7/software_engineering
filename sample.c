@@ -10,7 +10,7 @@ std::queue<int> queue;
 void insert();
 void remove();
 void display();
-void cre();
+void create();
 
 int main()
 {
