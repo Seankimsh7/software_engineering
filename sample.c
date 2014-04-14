@@ -59,7 +59,7 @@ int main() {
 }
 /******************** insert **********************/
 void insert() {
-	int value=0;
+	int value=0; //입력값 선언 및 초기화.
 	printf("\n\t ENTER A VALUE IN QUEUE :: ");    
 	scanf("%d",&value);
 
