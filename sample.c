@@ -17,7 +17,8 @@ int main()
 {
     int input = 0; //초기화
     
-    while (input !=  4) {
+    while( input !=  4 ) {
+
         system("cls");
         printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",QUEUE_SIZE);
         printf("\n\t 1.INSERT");
@@ -56,13 +57,12 @@ int main()
 
     return 0;
 }
-
 /******************** insert ********************/
 void insert()
 {
 	int value=0;
 	printf("\n\t ENTER A VALUE IN QUEUE :: ");    
-        scanf("%d",&value);
+        	scanf("%d",&value);
 
 	queue.push(value);
 	printf("\t PRESS ENTER KEY");
@@ -73,15 +73,16 @@ void delete() {
 	if(queue.empty())
 		printf("Empty Queue\n");
 
-        printf("\n\t %d gets deleted.........\n",queue.front());
+        	printf("\n\t %d gets deleted.........\n",queue.front());
 	queue.pop();
 	printf("\t PRESS ENTER KEY");
 }
 
 /******************** display ********************/
 void display() {
-	int size = queue.size();
-    for(int i = 0 ; i < size ; i++)
+    int size = queue.size();
+    int i=0; //초기화 추가
+    for(i = 0 ; i < size ; i++)
 	{
 		int temp = queue.front();
 		printf("\n\t %d", temp);
