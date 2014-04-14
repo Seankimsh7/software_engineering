@@ -17,6 +17,7 @@ int main() {
     
     while( oper !=  4 ) {
 
+
         system("cls");
         printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",QUEUE_SIZE);
         printf("\n\t 1.INSERT");
@@ -52,8 +53,6 @@ int main() {
 
         getch();
     }
-
-
     return 0;
 }
 /******************** insert **********************/
