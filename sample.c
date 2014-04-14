@@ -57,7 +57,7 @@ int main()
     return 0;
 }
 
-/********************* insert ********************/
+/******************** insert ********************/
 void insert()
 {
 	int value=0;
@@ -68,7 +68,7 @@ void insert()
 	printf("\t PRESS ENTER KEY");
 }
 
-/********************* delete ********************/
+/******************** delete ********************/
 void delete() {
 	if(queue.empty())
 		printf("Empty Queue\n");
@@ -78,7 +78,7 @@ void delete() {
 	printf("\t PRESS ENTER KEY");
 }
 
-/********************* display ********************/
+/******************** display ********************/
 void display() {
 	int size = queue.size();
     for(int i = 0 ; i < size ; i++)
