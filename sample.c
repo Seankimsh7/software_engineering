@@ -8,10 +8,10 @@
 
 std::queue<int> queue;
 
-void insert(void);
-void del(void);
-void disp(void);
-void cre(void);
+void insert();
+void del();
+void disp();
+void cre();
 
 int main()
 {
@@ -58,7 +58,7 @@ int main()
 }
 
 /********************* insert ********************/
-void insert(void)
+void insert()
 {
 	int value;
 	printf("\n\t ENTER A VALUE IN QUEUE :: ");    
@@ -69,7 +69,7 @@ void insert(void)
 }
 
 /********************* delete ********************/
-void del(void) {
+void del() {
 	if(queue.empty())
 		printf("Empty Queue\n");
 
@@ -79,7 +79,7 @@ void del(void) {
 }
 
 /********************* display ********************/
-void disp(void) {
+void disp() {
 	int size = queue.size();
     for(int i = 0 ; i < size ; i++)
 	{
@@ -94,7 +94,7 @@ void disp(void) {
 }
 
 /********************* create ********************/
-void cre(void) {
+void cre() {
     int t = 0;
     
     printf("\n\t ENTER A VALUE IN QUEUE :: ");
