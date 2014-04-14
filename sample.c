@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 #define QUEUE_SIZE 6
 
 std::queue<int> queue;
@@ -25,8 +24,6 @@ int main()
         printf("\n\t 3.DISPLAY");
         printf("\n\t 4.CREATE");
         printf("\n\t 5.EXIT\n");
-
-
 
         printf("\n\t -> ");
         scanf("%d",&op);
