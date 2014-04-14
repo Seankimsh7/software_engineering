@@ -8,7 +8,7 @@
 std::queue<int> queue;
 
 void insert();
-void delete();
+void remove();
 void disp();
 void cre();
 
@@ -21,7 +21,7 @@ int main()
         system("cls");
         printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",QUEUE_SIZE);
         printf("\n\t 1.INSERT");
-        printf("\n\t 2.DELETE");
+        printf("\n\t 2.REMOVE");
         printf("\n\t 3.DISPLAY");
         printf("\n\t 4.CREATE");
         printf("\n\t 5.EXIT\n");
@@ -36,7 +36,7 @@ int main()
             insert();
             break;
         case 2:
-            delete();
+            remove();
             break;
         case 3:
             display();
@@ -67,12 +67,12 @@ void insert()
 	printf("\t PRESS ENTER KEY");
 }
 
-/******************** delete ********************/
-void delete() {
+/******************** remove ********************/
+void remove() {
 	if(queue.empty())
 		printf("Empty Queue\n");
 
-        	printf("\n\t %d gets deleted.........\n",queue.front());
+        	printf("\n\t %d gets removeed.........\n",queue.front());
 	queue.pop();
 	printf("\t PRESS ENTER KEY");
 }
