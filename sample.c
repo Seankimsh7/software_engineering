@@ -9,7 +9,7 @@
 std::queue<int> queue;
 
 void insert();
-void del();
+void delete();
 void disp();
 void cre();
 
