@@ -36,13 +36,13 @@ int main()
             insert();
             break;
         case 2:
-            del();
+            delete();
             break;
         case 3:
-            disp();
+            display();
             break;
         case 4:
-            cre();
+            create();
             break;
         case 5:
             printf("\n\t System ShutDowned !!\n\n");
@@ -69,7 +69,7 @@ void insert()
 }
 
 /********************* delete ********************/
-void del() {
+void delete() {
 	if(queue.empty())
 		printf("Empty Queue\n");
 
@@ -79,7 +79,7 @@ void del() {
 }
 
 /********************* display ********************/
-void disp() {
+void display() {
 	int size = queue.size();
     for(int i = 0 ; i < size ; i++)
 	{
@@ -94,7 +94,7 @@ void disp() {
 }
 
 /********************* create ********************/
-void cre() {
+void create() {
     int t = 0;
     
     printf("\n\t ENTER A VALUE IN QUEUE :: ");
