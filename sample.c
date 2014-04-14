@@ -13,9 +13,9 @@ void create();
 
 int main() {
 
-    int op = 0; //초기화
+    int oper = 0; //초기화
     
-    while( op !=  4 ) {
+    while( oper !=  4 ) {
 
         system("cls");
         printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",QUEUE_SIZE);
@@ -26,9 +26,9 @@ int main() {
         printf("\n\t 5.EXIT\n");
 
         printf("\n\t -> ");
-        scanf("%d",&op);
+        scanf("%d",&oper);
 
-        switch(op) {
+        switch(oper) {
 
         system("cls"); // system("clear"); for linux
         case 1:
