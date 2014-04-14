@@ -96,8 +96,8 @@ void display() {
 
 /********************* create ********************/
 void create() {
-    int t = 0;
     
+    //t가 필요없다
     printf("\n\t ENTER A VALUE IN QUEUE :: ");
     
 	int size =queue.size();
