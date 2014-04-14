@@ -64,7 +64,6 @@ void main()
 
 }
 
-//test
 
 /*********************insert********************/
 void insert(void)
