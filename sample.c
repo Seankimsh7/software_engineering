@@ -90,8 +90,7 @@ void display() {
 		queue.push(temp);
 	}
     
-    printf("\n");
-    printf("\t PRESS ENTER KEY");
+    printf("\n\t PRESS ENTER KEY");
 }
 
 /********************* create ********************/
