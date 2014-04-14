@@ -1,8 +1,7 @@
 #include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <queue>
-#include <iterator>
+
 
 #define QUEUE_SIZE 6
 
