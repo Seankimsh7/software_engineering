@@ -1,6 +1,9 @@
 #include<conio.h>
 #include<stdio.h>
+<<<<<<< HEAD
 #include <stdlib.h>
+=======
+>>>>>>> origin
 
 #define N 6
 
@@ -15,8 +18,12 @@ void cre(void);
 void main()
 {
     int user=0;
+<<<<<<< HEAD
 
 
+=======
+    clrscr();
+>>>>>>> origin
     while(user!=4)
       {
         system("cls");
@@ -48,12 +55,16 @@ void main()
         }
 		printf("\n\t Press any key to enter");
         getch();
+<<<<<<< HEAD
 		
+=======
+	
+>>>>>>> origin
       }
 
 }
 
-
+//test
 
 /*********************insert********************/
 void insert(void)
