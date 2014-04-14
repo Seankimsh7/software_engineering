@@ -75,7 +75,7 @@ void remove() {
 	printf("\t PRESS ENTER KEY");
 }
 
-/******************** display **********************/
+/********************** display **********************/
 void display() {
     int size = queue.size();
     int i=0; //초기화 
@@ -96,7 +96,7 @@ void create() {
     //t가 필요없다
     printf("\n\t ENTER A VALUE IN QUEUE :: ");
     
-	int size =queue.size();
+	int size = queue.size();
 	int i = 0;     // i 변수 초기화
 	for (int i=0;i<size;i++) {
 		queue.pop();
