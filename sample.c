@@ -12,8 +12,8 @@ void remove();
 void display();
 void create();
 
-int main()
-{
+int main() {
+
     int op = 0; //초기화
     
     while( op !=  4 ) {
@@ -31,8 +31,8 @@ int main()
         printf("\n\t -> ");
         scanf("%d",&op);
 
-        switch(op)
-        {
+        switch(op) {
+
         system("cls"); // system("clear"); for linux
         case 1:
             insert();
@@ -59,8 +59,7 @@ int main()
     return 0;
 }
 /******************** insert ********************/
-void insert()
-{
+void insert() {
 	int value=0;
 	printf("\n\t ENTER A VALUE IN QUEUE :: ");    
         	scanf("%d",&value);
@@ -83,8 +82,7 @@ void remove() {
 void display() {
     int size = queue.size();
     int i=0; //초기화 
-    for(i = 0 ; i < size ; i++)
-	{
+    for(i = 0 ; i < size ; i++) {
 		int temp = queue.front();
 		printf("\n\t %d", temp);
 		queue.pop();
@@ -103,8 +101,7 @@ void create() {
     
 	int size =queue.size();
 	int i = 0;     // i 변수 초기화
-	for (int i=0;i<size;i++)
-	{
+	for (int i=0;i<size;i++) {
 		queue.pop();
 	}
 
