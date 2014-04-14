@@ -26,7 +26,7 @@ int main() {
         printf("\n\t 4.CREATE");
         printf("\n\t 5.EXIT\n");
 
-        printf("\n\t -> ");
+        printf("\n\t Select Menu-> ");
         scanf("%d",&oper);
 
         switch(oper) {
