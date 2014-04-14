@@ -66,7 +66,7 @@ void insert() {
 	printf("\t PRESS ENTER KEY");
 }
 
-/******************** remove ********************/
+/******************** remove **********************/
 void remove() {
 	if(queue.empty())
 		printf("Empty Queue\n");

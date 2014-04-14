@@ -56,7 +56,7 @@ int main() {
 
     return 0;
 }
-/******************** insert ********************/
+/******************** insert **********************/
 void insert() {
 	int value=0;
 	printf("\n\t ENTER A VALUE IN QUEUE :: ");    
