@@ -15,7 +15,7 @@ void cre();
 
 int main()
 {
-    int input = 0;
+    int input = 0; //ÃÊ±âÈ­
     
     while (input !=  4) {
         system("cls");
