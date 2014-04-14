@@ -60,7 +60,7 @@ int main() {
 void insert() {
 	int value=0;
 	printf("\n\t ENTER A VALUE IN QUEUE :: ");    
-        	scanf("%d",&value);
+    scanf("%d",&value);
 
 	queue.push(value);
 	printf("\t PRESS ENTER KEY");
@@ -70,8 +70,7 @@ void insert() {
 void remove() {
 	if(queue.empty())
 		printf("Empty Queue\n");
-
-        	printf("\n\t %d gets removeed.........\n",queue.front());
+	printf("\n\t %d gets removed.........\n",queue.front());
 	queue.pop();
 	printf("\t PRESS ENTER KEY");
 }
