@@ -13,7 +13,7 @@ void create();
 
 int main() {
 
-    int oper = 0; //초기화
+    int oper = 0; // 초기화
     
     while( oper !=  4 ) {
 
@@ -30,7 +30,7 @@ int main() {
 
         switch(oper) {
 
-        system("cls"); // system("clear"); for linux
+        system("cls"); //  system("clear"); for linux
         case 1:
             insert();
             break;
