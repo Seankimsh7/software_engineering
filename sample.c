@@ -81,7 +81,7 @@ void delete() {
 /******************** display ********************/
 void display() {
     int size = queue.size();
-    int i=0; //초기화 추가
+    int i=0; //초기화 
     for(i = 0 ; i < size ; i++)
 	{
 		int temp = queue.front();
