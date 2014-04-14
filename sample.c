@@ -45,7 +45,7 @@ int main()
             cre();
             break;
         case 5:
-            printf("\n\t THANK U\n\n");
+            printf("\n\t System ShutDown\n\n");
             break;
         default:
             break;
