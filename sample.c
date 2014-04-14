@@ -102,6 +102,7 @@ void create() {
     printf("\n\t ENTER A VALUE IN QUEUE :: ");
     
 	int size =queue.size();
+	int i = 0;     // i 변수 초기화
 	for (int i=0;i<size;i++)
 	{
 		queue.pop();
