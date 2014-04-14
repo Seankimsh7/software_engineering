@@ -61,7 +61,7 @@ int main() {
 void insert() {
 	int value=0;
 	printf("\n\t ENTER A VALUE IN QUEUE :: ");    
-    scanf("%d",&value);
+	scanf("%d",&value);
 
 	queue.push(value);
 	printf("\t PRESS ENTER KEY");
