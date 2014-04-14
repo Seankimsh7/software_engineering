@@ -60,7 +60,7 @@ int main()
 /********************* insert ********************/
 void insert()
 {
-	int value;
+	int value=0;
 	printf("\n\t ENTER A VALUE IN QUEUE :: ");    
     scanf("%d",&value);
 
