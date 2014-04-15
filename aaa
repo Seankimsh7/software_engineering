@@ -1,0 +1,289 @@
+[33mcommit 4d3b9784355a570c5eabdf1c21bb67e4467f5b77[m
+Author: kimjaegon <supersa@hanmail.net>
+Date:   Mon Apr 14 20:42:41 2014 +0900
+
+    sample.c modify
+
+[33mcommit 9f911349ef2112813906e0bedee114194fe17211[m
+Merge: 117661c 523b246
+Author: kimjaegon <supersa@hanmail.net>
+Date:   Mon Apr 14 20:41:58 2014 +0900
+
+    Merge branch 'master' of https://github.com/joohyun0115/software_engineering
+
+[33mcommit 523b246d90703bac0fb581f4084d6bf7af59e32f[m
+Author: kwuntaeyong <o-la8974@hanmail.net>
+Date:   Mon Apr 14 20:41:29 2014 +0900
+
+    return
+
+[33mcommit 117661cc68ed429cd4bb5bdb16b6f0257bc07e19[m
+Author: kimjaegon <supersa@hanmail.net>
+Date:   Mon Apr 14 20:39:12 2014 +0900
+
+    sample.c modify
+
+[33mcommit 471d696aaeffe2444bad4f72e343c450fbbb20bf[m
+Author: RaJiHyun <skwlgus0427@naver.com>
+Date:   Mon Apr 14 20:34:05 2014 +0900
+
+    op -> oper
+
+[33mcommit edf751b620b3fe0e594dc0a5818c62209572627f[m
+Author: HyunHo0 <Ruin0830@naver.com>
+Date:   Mon Apr 14 20:30:28 2014 +0900
+
+    수정
+
+[33mcommit 922ff9edbc9e6740cb41dd0aa718148ee31dde02[m
+Author: LeeHyunYoung <le32146@gmail.com>
+Date:   Mon Apr 14 20:21:56 2014 +0900
+
+    EdD
+
+[33mcommit c2a26ac750cd8bfb91ed231e41a7b3e1b80443ed[m
+Merge: 4c2b782 06bbef9
+Author: LeeHyunYoung <le32146@gmail.com>
+Date:   Mon Apr 14 20:07:19 2014 +0900
+
+    Merge branch 'master' of https://github.com/joohyun0115/software_engineering
+
+[33mcommit 4c2b782a675829e413780d7362d008064fed3b54[m
+Author: LeeHyunYoung <le32146@gmail.com>
+Date:   Mon Apr 14 20:06:45 2014 +0900
+
+    261_hyunyoung
+
+[33mcommit 1b543fd8f382a7d620b177fdcce076e1fe7e78d1[m
+Author: LeeHyunYoung <le32146@gmail.com>
+Date:   Mon Apr 14 20:05:26 2014 +0900
+
+    261_hyunyoung
+
+[33mcommit 06bbef9551b309ca55a70b546cb22561771eb1d2[m
+Author: Kim,taewon <knight827@naver.com>
+Date:   Mon Apr 14 20:03:50 2014 +0900
+
+     edit position {
+
+[33mcommit 4bca08ebebb963f5a316cf6b8db8b3a205f35c38[m
+Author: yunjeong <yunjeong111@gmail.com>
+Date:   Mon Apr 14 18:57:22 2014 +0900
+
+    350 create i 변수 초기화
+
+[33mcommit d64c6cd25c26c0ca49a79a575cfdf297e1378557[m
+Author: jeonyina <concealsc1@naver.com>
+Date:   Mon Apr 14 18:50:24 2014 +0900
+
+    321_yina
+
+[33mcommit f8df279d05bbc8b57c409d610c2bd1579e477516[m
+Author: suignun <suignun@naver.com>
+Date:   Mon Apr 14 18:24:33 2014 +0900
+
+    delete함수 이름을 변경
+
+[33mcommit d7ecebed42c9e83bf4ef076877cbb1c947d7fd72[m
+Author: no seung kuk <noesk622@naver.com>
+Date:   Mon Apr 14 18:14:34 2014 +0900
+
+    191 노승국
+
+[33mcommit b4cc4df3720ff166f9826e2e95dde913552088bb[m
+Author: jeayoung <92rabit@naver.com>
+Date:   Mon Apr 14 18:01:11 2014 +0900
+
+    int t가 필요 없다
+
+[33mcommit f69c389ce09c01abaa0fded92be8dca10739e793[m
+Author: HRit <cw_ryeon@naver.com>
+Date:   Mon Apr 14 17:53:39 2014 +0900
+
+    input -> op change
+
+[33mcommit fdc01ae2efbf1ea42ebd1735c19e7db7dbc0ca56[m
+Author: KimJeongHwan <kjq3052@naver.com>
+Date:   Mon Apr 14 17:51:00 2014 +0900
+
+    함수선언 del->delete로
+
+[33mcommit 50bc765e7b543ba974bdbc6fd5d03bf6680a9b11[m
+Author: Leeminka <minka1010@gmail.com>
+Date:   Mon Apr 14 17:41:13 2014 +0900
+
+    20113308_sumin_ 출력모양수정
+
+[33mcommit 336e6e0b0a381250beb66e3b044a93d55af58a0f[m
+Author: choeunyoung2 <wide1208@naver.com>
+Date:   Mon Apr 14 17:19:36 2014 +0900
+
+    334_choeunyoung i 변수 초기화
+
+[33mcommit 4da70f34bcf5e8d23fdf2be1946000a9df0bfd12[m
+Author: choeunyoung2 <wide1208@naver.com>
+Date:   Mon Apr 14 17:04:45 2014 +0900
+
+    i변수초기화
+
+[33mcommit 107a48682828ba36714a13f9491c3811caba9b21[m
+Author: joseunghee <jsh6945@naver.com>
+Date:   Mon Apr 14 16:33:59 2014 +0900
+
+    332_조승희 변수 초기화, 주석 추가
+
+[33mcommit 159a1e92ec915a546c197a052fa5d44350e0c79f[m
+Author: PangeunBae <bpg3219@gmail.com>
+Date:   Mon Apr 14 15:36:11 2014 +0900
+
+    296_배판근 함수 이름 변경
+
+[33mcommit d8bc40a8eb1c89f8f7257a40261ae8234199fc48[m
+Author: PangeunBae <bpg3219@gmail.com>
+Date:   Mon Apr 14 15:33:28 2014 +0900
+
+    함수 이름 변경
+
+[33mcommit 2a6a6c58dce4b80e656e51633b89ad06fe38bfc3[m
+Author: jinnam <jinnam13@naver.com>
+Date:   Mon Apr 14 13:59:25 2014 +0900
+
+    343_jinnam Indentation modified
+
+[33mcommit eb76796e8916abd32d421a123202b57fbaffe507[m
+Author: Seominjae <id_identity@naver.com>
+Date:   Mon Apr 14 13:46:36 2014 +0900
+
+    297_Seominjae Finish comment modified
+
+[33mcommit e4954a2b496422482e42c29ae9a13b4ab5efe8e8[m
+Author: Seominjae <id_identity@naver.com>
+Date:   Mon Apr 14 13:44:13 2014 +0900
+
+    Finish comment modified
+
+[33mcommit fc8009dce9d361759a5f72bada0946221b928d6d[m
+Author: HeeJaeKim <hejae225@gmail.com>
+Date:   Mon Apr 14 12:29:36 2014 +0900
+
+    test
+
+[33mcommit 85616843376e65f448ed3039bc9d9c97d0b87312[m
+Author: inam <wjddlska6@gmail.com>
+Date:   Mon Apr 14 10:53:04 2014 +0900
+
+    342_inam void delete
+
+[33mcommit cd8e106ffa20e3643ebeea090b05a2d9d8dfac44[m
+Author: nonark <nonark@naver.com>
+Date:   Sun Apr 13 22:22:55 2014 +0900
+
+    279_김현봉 : using queue.h
+
+[33mcommit f0e5e5d3907d05b5ba2ae40e24060c7f5f7c85fd[m
+Author: qudgns4707 <qudgns4707@naver.com>
+Date:   Sun Apr 13 21:28:17 2014 +0900
+
+    323_youngmin
+
+[33mcommit 2cbfb7057a9d64b8d2dfb8f768602c4cde34f015[m
+Merge: 6c36452 6c0c8d3
+Author: qudgns4707 <qudgns4707@naver.com>
+Date:   Sun Apr 13 21:21:35 2014 +0900
+
+    351_byounghoon
+
+[33mcommit 6c0c8d3fece8921b75cb46f386f1884e6c349533[m
+Merge: 4759e13 fc33161
+Author: nonark <nonark@naver.com>
+Date:   Sun Apr 13 20:59:53 2014 +0900
+
+    Merge branch 'master' of https://github.com/joohyun0115/software_engineering
+
+[33mcommit 4759e13c844c213e9c78a3a3620b0f1a1230cb73[m
+Author: nonark <nonark@naver.com>
+Date:   Sun Apr 13 20:58:57 2014 +0900
+
+    queue modified
+
+[33mcommit fc331619c24314d7f59e11b0567e44fc7c727dbe[m
+Author: Maeng <maeng@maeng-ES-110-Series.(none)>
+Date:   Sat Apr 12 22:55:09 2014 +0900
+
+    331_맹성주 : refine sample.c code by inspection
+
+[33mcommit b39c5de7de6b95dd3c39ee17744f24736073102f[m
+Author: DongMin Hyeon <kkas6857@gmail.com>
+Date:   Fri Apr 11 14:30:25 2014 +0900
+
+    344_현동민 - constanst name changed
+
+[33mcommit 56bd5b58ccd89e8b3dfa9d98ab91e8dd038d53b2[m
+Author: SungBumPark <smilehuji@naver.com>
+Date:   Fri Apr 11 14:11:18 2014 +0900
+
+    289_박성범 수정버전
+
+[33mcommit aa83125b692ddc9e811a06e631a68eaf3e201c51[m
+Author: Ingu Kang <igxactly@gmail.com>
+Date:   Fri Apr 11 13:56:02 2014 +0900
+
+    248 강인구 - refined code format
+
+[33mcommit 4144ec6dd522e42f80dd0a8e9d952d9ca9cfad26[m
+Author: jeonbeyngheon <money7849@naver.com>
+Date:   Fri Apr 11 13:21:50 2014 +0900
+
+    337_전병헌 수정
+
+[33mcommit 702f5041c016860f715dc697c9f2f41ce3758046[m
+Author: imsk28@gmail.com <imsk28@gmail.com>
+Date:   Fri Apr 11 13:09:37 2014 +0900
+
+    헤더 및 화면 출력 수정
+
+[33mcommit 85ac3f16c028e395ec42f92baa16cc471b3b1e14[m
+Author: jungranLee <ijr3827@naver.com>
+Date:   Thu Apr 10 19:22:05 2014 +0900
+
+     312_이정란 헤더추가 및 초기화
+
+[33mcommit 0a79d3ef735e86e4a788b6013387f81c60f66bad[m
+Author: jungranLee <ijr3827@naver.com>
+Date:   Thu Apr 10 19:13:53 2014 +0900
+
+    헤더추가 및 초기화함
+
+[33mcommit d030620a2ed3ef0d4b1f01b4d9205fcac81fbbd1[m
+Author: inseop <dlstjq2004@naver.com>
+Date:   Thu Apr 10 19:10:43 2014 +0900
+
+    356_황인섭 주석 추가, 필요없는 내용 삭제 등 수정
+
+[33mcommit 299bd43584bdc0461c65b0e0bea7c52f116d2ccd[m
+Author: inseop <dlstjq2004@naver.com>
+Date:   Thu Apr 10 14:31:56 2014 +0900
+
+    edit source
+
+[33mcommit a5e19d9f42dcc938b6400f587298c5a75b480a30[m
+Author: Mr. Han Yong Woo <nasms88@naver.com>
+Date:   Thu Apr 10 14:22:11 2014 +0900
+
+    287_YongWoo change something..
+
+[33mcommit 9b4c06fcb6afeb2ce2ce8751c716dde59883c6e4[m
+Author: Lee Jun Taek <ljt629@naver.com>
+Date:   Thu Apr 10 14:13:24 2014 +0900
+
+    some space character has been added.
+
+[33mcommit 1d9321519dfa46bcaba4d0b9548e60de74a09eb9[m
+Merge: 7d7add7 3ea8078
+Author: Lee Jun Taek <ljt629@naver.com>
+Date:   Thu Apr 10 14:12:16 2014 +0900
+
+    Merge branch 'master' of https://github.com/joohyun0115/software_engineering
+
+[33mcommit 7d7add7a7da53fd74f8f9b1ceb5f0514625001d8[m
+Author: Lee Jun Taek <l
