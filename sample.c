@@ -51,7 +51,8 @@ int main() {
             break;
         }
 
-        getch();
+        
+	getch();
     }
 
     return 0;
