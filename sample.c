@@ -20,11 +20,11 @@ int main() {
 
         system("cls");
         printf("\n\n\n\t\t\t THE SIZE OF QUEUE IS %d",QUEUE_SIZE);
-        printf("\n\t 1.INSERT");
-        printf("\n\t 2.REMOVE");
-        printf("\n\t 3.DISPLAY");
-        printf("\n\t 4.CREATE");
-        printf("\n\t 5.EXIT\n");
+        printf("\n\t ¥°.INSERT");
+        printf("\n\t ¥±.REMOVE");
+        printf("\n\t ¥².DISPLAY");
+        printf("\n\t ¥³.CREATE");
+        printf("\n\t ¥´.EXIT\n");
 
         printf("\n\t Select Menu-> ");
         scanf("%d",&oper);
