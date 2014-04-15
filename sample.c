@@ -78,7 +78,7 @@ void remove() {
 /********************** display **********************/
 void display() {
     int size = queue.size();
-    int i=0; //초기화 
+    int i; //for loop variable i initialization 0
     for(i = 0 ; i < size ; i++) {
 		int temp = queue.front();
 		printf("\n\t %d", temp);
@@ -97,7 +97,7 @@ void create() {
     printf("\n\t ENTER A VALUE IN QUEUE :: ");
     
 	int size = queue.size();
-	int i = 0;     // i 변수 초기화
+	int i;	//for loop variable i initialization 0
 	for (int i=0;i<size;i++) {
 		queue.pop();
 	}
