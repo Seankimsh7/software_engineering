@@ -63,7 +63,7 @@ void insert() {
 	scanf("%d",&value);
 
 	queue.push(value);
-	printf("\t PRESS ENTER KEY");
+	printf("\t PRESS ENTER KEY!!");
 }
 
 /******************** remove **********************/
@@ -105,4 +105,4 @@ void create() {
 
     printf("\t PRESS ENTER KEY");
 }
-//indentation modified
+//indentation the modified
