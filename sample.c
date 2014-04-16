@@ -1,6 +1,8 @@
 #include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <iostream>
+#include <queue>
 
 #define QUEUE_SIZE 6
 
@@ -91,7 +93,7 @@ void display() {
     printf("\t PRESS ENTER KEY");
 }
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
 /********************* display ********************/
 void disp(void)
 {
@@ -99,7 +101,7 @@ void disp(void)
     for(i = front ; i < rear ; i++)
         printf("\n\t %d", queue[i]);
 }
-=======
+//=======
 /********************* create ***********************/
 void create() {
     
@@ -112,7 +114,7 @@ void create() {
 		queue.pop();
 	}
 
->>>>>>> 8db500f7d5dd1652b00ef44381d5959865d6c376
+//>>>>>>> 8db500f7d5dd1652b00ef44381d5959865d6c376
 
     printf("\t PRESS ENTER KEY");
 }
