@@ -11,10 +11,10 @@ void remove();
 void display();
 void create();
 
-// 자료구조 큐
+// Queue
 int main() {
 
-    int oper = 0; // initialization
+    int oper = 0; // Initialization
     
     while( oper !=  4 ) {
 
@@ -45,7 +45,7 @@ int main() {
             create();
             break;
         case 5:
-            printf("\n\t System ShutDowned !\n\n");
+            printf("\n\t System ShutDowned !!\n\n");
             break;
         default:
             break;
@@ -59,11 +59,11 @@ int main() {
 }
 /******************** insert **********************/
 void insert() {
-	int value=0; //입력값 선언 및 초기화.
+	int val=0; //Declaration and initialization.
 	printf("\n\t ENTER A VALUE IN QUEUE :: ");    
-	scanf("%d",&value);
+	scanf("%d",&val);
 
-	queue.push(value);
+	queue.push(val);
 	printf("\t PRESS ENTER KEY!!");
 }
 
