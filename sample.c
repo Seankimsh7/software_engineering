@@ -14,7 +14,7 @@ void create();
 // 자료구조 큐
 int main() {
 
-    int oper = 0; // 초기화
+    int oper = 0; // initialization
     
     while( oper !=  4 ) {
 
